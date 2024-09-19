@@ -2,10 +2,3 @@ root: ./
 
 redirects:
   intro.html: README.md
-  00-node.html: network/README.md
-  00-00-setup.html: network/running-a-node/setup.md
-  00-01-upgrading.html: network/running-a-node/upgrading.md
-  00-02-validating.html: network/validating.md
-  00-03-bitcoin-relayer.html: network/bitcoin-relayer.md
-  00-04-bitcoin-signer.html: network/signer.md
-  00-05-ibc-relayer.html: network/ibc-relayer.md
