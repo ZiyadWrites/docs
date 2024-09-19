@@ -37,7 +37,7 @@ sudo dnf install clang openssl-devel && sudo dnf group install "C Development To
 ```bash
 git clone https://github.com/nomic-io/nomic.git
 cd nomic
-git checkout main
+git checkout v9.0.0
 ```
 
 4. Build and install. This adds a `nomic` command to your PATH:
