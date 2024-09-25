@@ -1,18 +1,18 @@
 ---
-description: Nomic supports bridging Bitcoin to Ethereum.
+description: Nomic supports bridging Bitcoin to EVM-based chains.
 ---
 
-# Integrating nBTC on Ethereum
+# Integrating nBTC on EVM
 
 ## Contract Addresses
 
 Nomic's decentralized custody bridging contract can be found at the following contract addresses:
 
-<table><thead><tr><th width="185">Network</th><th>Bridge Contract Address</th></tr></thead><tbody><tr><td>Ethereum Sepolia</td><td><a href="https://sepolia.etherscan.io/address/0x794bdA49337C667ED03265618821b944Ed11bcED">0x794bdA49337C667ED03265618821b944Ed11bcED</a></td></tr><tr><td>Ethereum Holešky</td><td><em>TBA</em></td></tr><tr><td>Ethereum Mainnet</td><td><em>TBA</em></td></tr></tbody></table>
+<table><thead><tr><th width="185">Network</th><th>Bridge Contract Address</th></tr></thead><tbody><tr><td>Ethereum Sepolia</td><td><a href="https://sepolia.etherscan.io/address/0x794bdA49337C667ED03265618821b944Ed11bcED">0x794bdA49337C667ED03265618821b944Ed11bcED</a></td></tr><tr><td>Ethereum Holešky</td><td><a href="https://holesky.etherscan.io/address/0x936366c13b43Ab6eC8f70A69038E9187fED0Cd1e">0x936366c13b43Ab6eC8f70A69038E9187fED0Cd1e</a></td></tr><tr><td>Ethereum Mainnet</td><td><em>TBA</em></td></tr><tr><td>Berachain bArtio</td><td><a href="https://bartio.beratrail.io/address/0xea55b1E6df415b96C194146abCcE85e6f811CAb7">0xea55b1E6df415b96C194146abCcE85e6f811CAb7</a></td></tr></tbody></table>
 
-nBTC on Ethereum is issued as an ERC-20 token at the following contract addresses:
+nBTC on EVM-based chains is issued as an ERC-20 token at the following contract addresses:
 
-<table><thead><tr><th width="185">Network</th><th>Token Contract Address</th></tr></thead><tbody><tr><td>Ethereum Sepolia</td><td><a href="https://sepolia.etherscan.io/token/0xA229EaE06B1F8137461A9D309478da3C8d910E53">0xA229EaE06B1F8137461A9D309478da3C8d910E53</a></td></tr><tr><td>Ethereum Holešky</td><td><em>TBA</em></td></tr><tr><td>Ethereum Mainnet</td><td><em>TBA</em></td></tr></tbody></table>
+<table><thead><tr><th width="185">Network</th><th>Token Contract Address</th></tr></thead><tbody><tr><td>Ethereum Sepolia</td><td><a href="https://sepolia.etherscan.io/token/0xA229EaE06B1F8137461A9D309478da3C8d910E53">0xA229EaE06B1F8137461A9D309478da3C8d910E53</a></td></tr><tr><td>Ethereum Holešky</td><td><a href="https://holesky.etherscan.io/address/0x54360db096a2cb43b411f89a584da69a7bac0663">0x54360db096a2cb43b411f89a584da69a7bac0663</a></td></tr><tr><td>Ethereum Mainnet</td><td><em>TBA</em></td></tr><tr><td>Berachain bArtio</td><td><a href="https://bartio.beratrail.io/address/0x45a1947cb7315ce9c569b011a6dee4f67813bb75">0x45a1947cb7315ce9c569b011a6dee4f67813bb75</a></td></tr></tbody></table>
 
 Additional network contract addresses will be listed on here in the future, as well as documentation for creating your own customizable deployments in any EVM environment.
 
@@ -20,7 +20,7 @@ Additional network contract addresses will be listed on here in the future, as w
 
 Interchain Deposits allow the generation of Bitcoin addresses which commit to a destination on an EVM-based chain, automatically forwarding any received funds as nBTC to a contract on that chain.
 
-The Ethereum destination may be either:
+The EVM destination may be either:
 
 * an Ethereum address to receive the nBTC;
 * a contract call to be executed with the received nBTC.
@@ -31,7 +31,7 @@ See [`nomic-bitcoin-js`](https://www.npmjs.com/package/nomic-bitcoin) for more i
 
 ### Withdrawing to Bitcoin
 
-Bitcoin may be withdrawn to a Bitcoin address directly via contract calls on Ethereum.
+Bitcoin may be withdrawn to a Bitcoin address directly via contract calls on EVM-based chains.
 
 First, `approve` must be called on the token contract (see above table):
 
