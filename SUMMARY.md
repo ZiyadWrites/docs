@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 * [Nomic Network](nomic-network.md)
-* [Decentralized Bitcoin Custody](nbtc.md)
+* [Bitcoin Decentralized Custody](bitcoin.md)
 * [Governance](governance.md)
 * [Contributors](contributors.md)
 * [Foundation](foundation.md)
