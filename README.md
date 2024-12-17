@@ -25,8 +25,8 @@ layout:
 [nomic-network.md](nomic-network.md)
 {% endcontent-ref %}
 
-{% content-ref url="nbtc.md" %}
-[nbtc.md](nbtc.md)
+{% content-ref url="bitcoin.md" %}
+[bitcoin.md](bitcoin.md)
 {% endcontent-ref %}
 
 {% content-ref url="governance.md" %}
